@@ -1,0 +1,185 @@
+body
+{
+    margin: 0;
+    padding: 0;
+   
+}
+.main
+{
+    
+}
+.submain
+{
+     background-image: url("lunch-dinner.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo img
+{
+    height: 20%;
+    margin-bottom: -30%;
+}
+
+.nav ul
+{
+    margin-left: 35%;
+text-transform: uppercase;
+    padding: 0;
+    
+   
+}
+.navm
+{
+   
+    width: 100%;
+}
+.nav ul li
+{
+    float: left;
+    color: white;
+    margin-left: 3%;
+    font-size: 25px;
+    font-family: cursive;
+    display: block;
+    padding: 10px;
+    transition: .2s;
+     
+     
+    
+}
+.nav ul li:hover
+{
+    background: red;
+    text-decoration: underline;
+}
+ h3
+{
+    margin-top: -25%;
+    color: white;
+    margin-left: 35%;
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+.btn
+{
+     margin-left: 10%;
+}
+.btn  input[type="submit"]
+{
+   
+    margin-top: 13%;
+    border: 2px solid white;
+    height: 6%;
+    width: 17%;
+    font-size: 20px;
+    font-family: cursive;
+    background: transparent;
+    text-transform: uppercase;
+    color: white;
+    transition: .4s;
+    outline: none;
+    color: black;
+    
+}
+.btn  input[type="submit"]:hover
+{
+    background: red;
+    color: white;
+   cursor: pointer;
+    
+}
+.btn  #active
+{
+    background: red;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.services
+{
+    background-attachment: fixed;
+    height: 50%;
+    padding: 20px;
+}
+.services h1
+{
+text-align: center;
+  text-decoration: underline;
+    color: cornflowerblue;
+    font-size: 50px;
+    font-family:MV Boli;
+}
+.services p
+{
+   font-size: 30px;
+    text-align: justify;
+    font-family: cursive;
+    color: darkgoldenrod;
+}
+.ourmenu
+{
+    background-attachment: fixed;
+    background-image: url("food.jpg");
+    height: 100%;
+
+    background-size:cover;
+    margin-bottom: -2.5%;
+}
+footer
+{
+    background: #57606f;
+    height: 30%;
+    text-transform: uppercase;
+    
+    
+}
+footer h2
+{
+    color: #ecf0f1;
+    text-align: center;
+}
+footer p
+{
+    text-align: center;
+    font-size: 30px;
+    color: #bdc3c7;
+}
+footer ul
+{
+margin-left: 32%;
+}
+footer li
+{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    margin-left:2%;
+
+   width:40px;
+   /* border-right: 2px solid #2f3542;*/
+    border: 1.5px solid #2f3542;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    transition: .4s;
+    
+}
+
+footer li:hover
+{
+    background: transparent;
+    color: white;
+     border: 1.5px solid white;
+    background: black;
+    transform: scale(1.2);
+    cursor:pointer;
+    
+}
+
+
+
+
